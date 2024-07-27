@@ -1,0 +1,14 @@
+/*Conteudo principal*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*banner*/
+#section-banners img{
+    height: 750px;
+    width: 100px;
+}
+
+
