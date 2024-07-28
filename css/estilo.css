@@ -1,14 +1,47 @@
-/*Conteudo principal*/
-* {
-    margin: 0;
-    padding: 0;
+/* Estilo base */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  overflow: hidden;
 }
 
-
-/*banner*/
-#section-banners img{
-    height: 750px;
-    width: 100px;
+main {
+  height: 100%;
 }
 
+#section-banners {
+  height: 100%;
+}
 
+/* Estilo para o carrossel */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilo para dispositivos menores */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Estilo para dispositivos muito pequenos */
+@media (max-width: 576px) {
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
